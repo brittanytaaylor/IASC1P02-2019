@@ -1,0 +1,41 @@
+.box{
+  margin-top:10px;
+  margin-right:10px;
+  Margin-bottom:10px;
+  margin-left: 10px;
+  border: purple 2px dotted;
+  padding-top: 100px;
+  padding-bottom: 10px;
+text-align: center;
+  font-size: 10px;
+}
+
+.p1{
+  font-size: 5px;
+  text-align: center;
+  color: green;
+}
+
+.orange{
+  color: orange
+}
+
+.red{
+  color: red;
+  vertical-align: super;
+}
+
+#right{
+  text-align: right;
+
+}
+
+.purple{
+  font-size: 4px;
+  color: purple;
+}
+
+.yellow{
+  font-size: 4px;
+  color: yellow;
+}
