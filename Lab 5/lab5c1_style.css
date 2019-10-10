@@ -1,0 +1,45 @@
+body{
+	color:white;
+	background-color:white;
+}
+
+
+#wrapper{
+
+	width:750px;
+	margin:10px
+	background-color:white;
+	
+
+
+}
+
+#header{
+	height:50px;
+	background-color: red;
+	font-size: 11px;
+	text-align: center;
+	padding-top: 3px;
+	padding-bottom: 3px;
+
+}
+
+#leftbody{
+	float:left;
+	width:750px;
+	height: 400px;
+	background-color:green;
+	font-size: 10px;
+	padding-top: 10px
+
+
+}
+
+#bottom{
+	text-align:left;
+	height:50px;
+	clear:both;
+	background-color: blue;
+	font-size: 10px;
+	padding-top: 10px;
+}

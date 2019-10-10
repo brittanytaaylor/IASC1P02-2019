@@ -1,0 +1,44 @@
+body{
+	color:black;
+	background-color:white;
+}
+
+
+#wrapper{
+	height: 700px;
+	width: 1200px;
+	padding-top: 10px;
+
+	background-color:green;
+
+}
+
+#content1{
+	margin-left: 200px;
+	float:left;
+	width:200px;
+	height: 200px;
+	background-color:blue;
+	padding-top: 10px;
+	font-size: 12px;
+
+}
+#content2{
+	margin-right: 200px;
+	float:right;
+	width:200px;
+	height:200px;
+	background-color: red;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+#content3{
+	margin-left: 500px;
+	clear: both;
+	height:200px;
+	width: 200px;
+	background-color: yellow;
+	font-size: 12px;
+
+}
