@@ -4,7 +4,7 @@ body{
 }
 
 
-#header{
+#h{
 	height:50px;
 	margin-bottom: 10px;
 	background-color: white;
@@ -13,22 +13,25 @@ body{
 	padding-top: 5px;
 	padding-bottom: 20px;
 	text-transform: uppercase;
-
-
 }
 
-#header2{
+#h2,h3{
+	font-style: italic;
+}
+
+
+#h2{
 	color: black;
 	font-size: 15px;
-	font-style: italic;
+
 	position: relative;
 
 }
 
-#header3{
+#h3{
 	color: white;
 font-size: 15px;
-font-style: italic;
+
 }
 
 #ul{
@@ -36,7 +39,7 @@ font-style: italic;
 	font-size: 20px;
 	background-color: white;
 	padding: 10px;
-	
+
 
 }
 
@@ -73,3 +76,33 @@ font-family: sans-serif;
 .bigger{
 	font-size: 35px;
 }
+
+.marked{
+	color: lightcoral;
+}
+
+#fixed{
+	position: fixed;
+	color: indianred;
+	font-size: 20px;
+}
+
+.box{
+  margin-right: 10px;
+  margin-left: 10px;
+    border: black 3px dotted;
+    padding-top: 20px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    font-size: 20px;
+		position: relative;
+		color: #F9E79F;
+	}
+
+	.absolute{
+		margin: 5px;
+	    border: white 10px;
+	    font-size: 20px;
+			position: absolute;
+			color: white;
+		}
