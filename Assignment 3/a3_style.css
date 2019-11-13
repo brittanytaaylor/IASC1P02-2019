@@ -24,6 +24,12 @@ text-align: center;
 
 }
 
+.fb{
+  image width: 10px;
+image height: 10px;
+float: right;
+}
+
 img{
   padding: 10px;
   width: 150px;
@@ -68,11 +74,10 @@ li a:hover {
   height:400px;
   text-align: center;
   font-family: georgia;
+  float:left;
 }
 
-.middle{
-  display: middle;
-}
+
 
 .owha{
   float: right;
