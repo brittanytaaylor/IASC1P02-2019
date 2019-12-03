@@ -1,0 +1,147 @@
+body{
+color:rosybrown;
+background-color: white;
+font-family:  serif;
+font-family: andale mono;
+}
+
+.header{
+  background: url(pic1.jpg);
+
+}
+
+
+h1{
+  font-style: italic;
+  text-align: center;
+  font-family: andale mono;
+  font-size: 80px;
+  padding: 150px;
+  border: solid rosybrown;
+  border-width: thin;
+
+}
+
+h2{
+  font-style: italic;
+  text-align: center;
+  font-size: 35px;
+}
+
+h3{
+  font-style: italic;
+  text-align: left;
+  font-size: 25px;
+  font-family: andale mono;
+}
+
+h4{
+  font-style: italic;
+  text-align: center;
+  font-size: 20px;
+  font-family: andale mono;
+}
+
+h5{
+  font-style: italic;
+text-align: right;
+font-size: 30px;
+font-family: andale mono;
+
+}
+
+h6{
+  font-style: italic;
+  font-size: 30px;
+  font-family: andale mono;
+
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.container{
+  width: 400px;
+}
+
+.gallery {
+  margin: 5px;
+  float: left;
+  width: 400px;
+}
+
+.gallery:hover {
+
+}
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.column {
+  float: left;
+  width: 50%;
+
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.form {
+    display: table;
+}
+
+.form {
+    display: table-row;
+}
+
+label, input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.insta{
+  float: right;
+}
+
+.facebook{
+    float: right;
+
+}
+
+.contact{
+  border: solid #333;
+}
+
+.footer{
+  background-color: #333
+}
